@@ -1,0 +1,18 @@
+Program to prorate a specific number of hours among all projects.
+
+example: python prorate.py -t 8
+         PROJECT_2   : 3.2
+         PROJECT_1   : 4.8
+
+% python prorate.py --help
+usage: PRORATE [-h] [--version] [--time TIME] [--verbose] [--describe]
+
+*note*: Program makes use of termcolor (http://pypi.python.org/pypi/termcolor)
+'sudo pip install termcolor'
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  --time TIME, -t TIME  the amount of time to prorate
+  --verbose, -v         Show a detailed description of the formula being done
+  --describe, -d        Show the project data we are using
